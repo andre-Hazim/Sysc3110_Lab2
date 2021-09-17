@@ -12,7 +12,11 @@ public class AddressBook {
         buddies.remove(buddyInfo);
     }
     public static void main(String[] args) {
-        System.out.printf("Address Book");
+        System.out.printf("Address Books");
+        BuddyInfo buddy  = new BuddyInfo("Jim", "Carleton", "613");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 }
 
