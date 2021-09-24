@@ -1,0 +1,31 @@
+1. .idea, src, Lab 1.iml
+
+2. java.base, java.compiler, java.datatransfer
+
+3.
+public class BuddyInfo {
+
+
+    private String name;
+
+    private String address;
+
+    private String phoneNumber;
+
+    public BuddyInfo(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+
+        BuddyInfo buddyInfo = new BuddyInfo("Andre");
+
+        System.out.println("Hello " + buddyInfo.getName());
+    }
+}
+
+4. C:\Users\jrdoc\OneDrive - Carleton University\Sysc 3110\Labs\Lab 1\out\production\Lab 1
